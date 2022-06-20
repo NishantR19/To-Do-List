@@ -1,0 +1,120 @@
+body{
+background-color: aquamarine;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+  color: rgb(245, 249, 244);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul {
+display: flex;
+list-style: none;
+height: 56px;
+background-color: black;
+align-items: center;
+}
+
+.brand img{
+  width: 60px;
+  padding:0 7px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+.container{
+    min-height: 64vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 5px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: rgb(185, 136, 231);
+    display: flex;
+    margin: 20px auto;
+    width: 65%;
+    border-radius: 12px;
+    padding: 30px ;
+    background-image:url('clddd.jpg');
+}
+
+
+.bottom{
+    height: 110px;
+    background-color: black;
+    position: sticky;
+    display: flex;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top: 20px;
+    /* cursor: pointer; */
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#songBar{
+    width:95vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songItem{
+height: 42px;
+display: flex;
+background-color:white;
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 10px;
+}
+
+.songItemContainer{
+    margin-top: 70px;
+}
+
+.songItem img{
+width: 35px;
+margin: 0 15px;
+    border-radius: 10px;
+}
+
+.timestamp{
+    margin: 0 35px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 1vw;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.songInfo img{
+    opacity: 0;
+   transition: opacity 1s ease-in;
+}
